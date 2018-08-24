@@ -86,7 +86,7 @@ ExternalProject_Add( ${proj}
   -DUSE_PolydataDummyPenalty:BOOL=OFF                                           
   -DUSE_Powell:BOOL=OFF
   -DUSE_QuasiNewtonLBFGS:BOOL=ON                                           
-  -DUSE_RSGDEachParameterApart:BOOL=OFF                                           
+  -DUSE_RSGDEachParameterApart:BOOL=ON
   -DUSE_RandomCoordinateSampler:BOOL=ON                                           
   -DUSE_RandomSampler:BOOL=ON                                           
   -DUSE_RandomSamplerSparseMask:BOOL=ON                                           
@@ -94,7 +94,7 @@ ExternalProject_Add( ${proj}
   -DUSE_RayCastResampleInterpolator:BOOL=OFF                                           
   -DUSE_ReducedDimensionBSplineInterpolator:BOOL=ON                                           
   -DUSE_ReducedDimensionBSplineResampleInterpolator:BOOL=ON
-  -DUSE_RegularStepGradientDescent:BOOL=OFF                                           
+  -DUSE_RegularStepGradientDescent:BOOL=ON
   -DUSE_SimilarityTransformElastix:BOOL=ON                                           
   -DUSE_Simplex:BOOL=OFF                                           
   -DUSE_SimultaneousPerturbation:BOOL=OFF                                           
